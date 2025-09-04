@@ -30,7 +30,7 @@ fun main() {
     println("Test 4: a + pqrstuvwxyz .. output: ${mergeAlternately(test4String1, test4String2)}") // expected result: apqrstuvwxyz
     println("Test 5: abcdefghijk + z .. output: ${mergeAlternately(test5String1, test5String2)}") // expected result: azbcdefghijk
     println("Test 6: a + z .. output: ${mergeAlternately(test6String1, test6String2)}") // expected result: az
-    println("Test 6: abcdefghijklmnopqrstuvwxyz + abcdefghijklmnopqrstuvwxyz .. output: ${mergeAlternately(test7String1, test7String2)}") // expected result: zippered alphabet
+    println("Test 7: abcdefghijklmnopqrstuvwxyz + abcdefghijklmnopqrstuvwxyz .. output: ${mergeAlternately(test7String1, test7String2)}") // expected result: zippered alphabet
 }
 
 fun mergeAlternately(word1 : String, word2 : String) : String {

@@ -14,11 +14,10 @@ fun main() {
     println("Test 1: III .. output: ${romanToInt(testString1)}") // expected result: 3
     println("Test 2: LVIII .. output: ${romanToInt(testString2)}") // expected result: 58
     println("Test 3: MCMXCIV .. output: ${romanToInt(testString3)}") // expected result: 1994
-    println("Test 1: X .. output: ${romanToInt(testString4)}") // expected result: 10
-    println("Test 1: MDCLXVI .. output: ${romanToInt(testString5)}") // expected result: 1666
-    println("Test 1: LIXX .. output: ${romanToInt(testString6)}") // expected result: 69
-    println("Test 1: MMMCMXCIX .. output: ${romanToInt(testString7)}") // expected result: 3999
-
+    println("Test 4: X .. output: ${romanToInt(testString4)}") // expected result: 10
+    println("Test 5: MDCLXVI .. output: ${romanToInt(testString5)}") // expected result: 1666
+    println("Test 6: LIXX .. output: ${romanToInt(testString6)}") // expected result: 69
+    println("Test 7: MMMCMXCIX .. output: ${romanToInt(testString7)}") // expected result: 3999
 }
 
 fun romanToInt(romanNumber : String) : Int {
