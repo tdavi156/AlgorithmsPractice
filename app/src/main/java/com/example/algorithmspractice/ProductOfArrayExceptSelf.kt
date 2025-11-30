@@ -16,7 +16,6 @@ fun main() {
     println("Test 4: [4,3,2,1] .. output: ${productExceptSelf(testArray4).joinToString()}") // expected result: [6,8,12,24]
     println("Test 5: [1,2,3,0,5,6,0,8,9] .. output: ${productExceptSelf(testArray5).joinToString()}") // expected result: [0,0,0,0,0,0,0,0,0]
     println("Test 6: [1,-1,2,-2,3,-3] .. output: ${productExceptSelf(testArray6).joinToString()}") // expected result: [-36,36,-18,18,-12,12]
-
 }
 
 fun productExceptSelf(nums : IntArray) : IntArray {
